@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>%VITE_APP_TITLE%</title>
+    <link rel="icon" href="%VITE_APP_FAVICON_URL%">
+    <meta name="description" content="%VITE_APP_DESCRIPTION%">
+    <meta name="keywords" content="%VITE_APP_KEYWORDS%">
+    <!-- IE 淘汰 -->
+    <script>
+      if (false || (!!window.MSInputMethodContext && !!document.documentMode))
+        window.location.href =
+          'https://support.dmeng.net/upgrade-your-browser.html?referrer=' +
+          encodeURIComponent(window.location.href);
+    </script>
+    <!-- 禁用右键 -->
+    <script>
+      document.oncontextmenu = function () {
+        return false;
+      };
+    </script>
+    <!-- Umami 统计 -->
+    <script defer src="https://um.ruom.top/script.js" data-website-id="17708376-4a42-47be-9554-8e7eb1675af9"></script>
+    <!-- 字体 -->
+    <link rel="stylesheet" href="%VITE_APP_FONT_CSS_URL%">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <noscript>
+      <div style="text-align: center">请开启 JavaScript</div>
+    </noscript>
+  </body>
+</html>
