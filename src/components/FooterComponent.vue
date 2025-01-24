@@ -13,7 +13,7 @@
     <span>诚信</span>
     <span>友善</span>
     <div class="icp">
-      <span>© 2024</span><a href="https://bsgun.cn" target="_blank">梦爱吃鱼</a>
+      <span>© 2025</span><a href="https://www.scfc.top/" target="_blank">S.C.F.C.</a>
       <a v-if="icpNumber" href="https://beian.miit.gov.cn/" target="_blank">{{ icpNumber }}</a>
       <button class="logo-btn" @click="toggleTips">小提示</button>
     </div>
